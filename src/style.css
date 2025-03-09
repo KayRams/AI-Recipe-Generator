@@ -1,3 +1,52 @@
+body {
+  background-color: lightgray;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
 h1 {
+  color: seagreen;
+  font-weight: 800px;
+  font-size: 36px;
+  line-height: 1.5;
+}
+form {
+  padding: 20px;
+}
+input {
+  padding: 16px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  width: 60%;
+}
+button {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: seagreen;
+  color: white;
+  width: 30%;
+  margin-left: 10px;
+}
+.recipe {
+  margin: 20px;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 2px solid seagreen;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: gray;
+}
+a {
+  text-decoration: none;
   color: seagreen;
 }

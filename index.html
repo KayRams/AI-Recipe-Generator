@@ -7,7 +7,22 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Recipe Generator</h1>
+    <h1>AI Recipe Generator</h1>
+    <main>
+      <form id="recipe-form">
+        <input
+          type="text"
+          id="ingredients"
+          name="ingredients"
+          placeholder="Enter a dish..."
+          required
+          autofocus
+          autocomplete="off"
+        />
+        <button type="submit">Generate Recipe</button>
+        <div id="recipe">Please wait while I generate a recipe for you...</div>
+      </form>
+    </main>
     <footer>
       Open-sourced by
       <a href="https://github.com/KayRams/AI-Recipe-Generator" target="_blank"

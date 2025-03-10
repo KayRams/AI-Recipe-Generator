@@ -9,8 +9,10 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <div class="container">
+    <header>
       <h1>AI Recipe Generator</h1>
+    </header>
+    <div class="container">
       <main>
         <form id="recipe-form">
           <input
@@ -23,17 +25,20 @@
             id="user-instructions"
           />
           <button type="submit">Generate Recipe</button>
+          <br />
+          <br />
+          <small>i.e: Chakalaka, Blueberry Muffins, Crème Brûlée</small>
         </form>
-
-        <div class="recipe" id="recipe"></div>
       </main>
-      <footer>
-        Open-sourced by
-        <a href="https://github.com/KayRams/AI-Recipe-Generator" target="_blank"
-          >Ingrid Ramoloto</a
-        >
-      </footer>
     </div>
+    <div class="recipe hidden" id="recipe"></div>
+
+    <footer>
+      This AI project is open-sourced by
+      <a href="https://github.com/KayRams/AI-Recipe-Generator" target="_blank"
+        >Ingrid Ramoloto</a
+      >
+    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>

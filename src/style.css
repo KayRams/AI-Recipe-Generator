@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background: lightgray;
 }
 .container {
   margin: 120px auto;
@@ -9,9 +9,10 @@ body {
   border-radius: 10px;
 }
 h1 {
+  text-align: center;
   color: seagreen;
   font-weight: 800px;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.5;
 }
 form {
@@ -20,14 +21,14 @@ form {
 input {
   padding: 16px;
   border: 1px solid lightgray;
-  border-radius: 6px;
+  border-radius: 30px;
   width: 60%;
 }
 button {
   padding: 16px;
   font-size: 16px;
   border: none;
-  border-radius: 6px;
+  border-radius: 30px;
   background-color: seagreen;
   color: white;
   width: 30%;
